@@ -3,45 +3,78 @@
 
 <head>
 
-	<meta charset="utf-8">
+    <meta charset="utf-8">
 
-	<title>Title</title>
-	<meta name="description" content="">
+    <title>Title</title>
+    <meta name="description" content="">
 
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-	<meta property="og:image" content="path/to/image.jpg">
-	<link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
-	<link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
-	<link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
-	<link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
+    <meta property="og:image" content="path/to/image.jpg">
+    <link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
 
-	<!-- Chrome, Firefox OS and Opera -->
-	<meta name="theme-color" content="#a1a1a1">
-	<!-- Windows Phone -->
-	<meta name="msapplication-navbutton-color" content="#a1a1a1">
-	<!-- iOS Safari -->
-	<meta name="apple-mobile-web-app-status-bar-style" content="#a1a1a1">
+    <!-- Chrome, Firefox OS and Opera -->
+    <meta name="theme-color" content="#a1a1a1">
+    <!-- Windows Phone -->
+    <meta name="msapplication-navbutton-color" content="#a1a1a1">
+    <!-- iOS Safari -->
+    <meta name="apple-mobile-web-app-status-bar-style" content="#a1a1a1">
 
-	<style>body { opacity: 0; overflow-x: hidden; } html { background-color: #a1a1a1; }</style>
+    <style>body {
+        opacity: 0;
+        overflow-x: hidden;
+    }
+
+    html {
+        background-color: #a1a1a1;
+    }</style>
 
 </head>
 
 <body class="isHome">
 
-    <div id="my-page">
-        <div id="my-header">
-            <header class="site-header" style="background-image: url('img/top-bg.jpg')">
+<div id="my-page">
+    <div id="my-header">
+        <header class="site-header" style="background-image: url('img/top-bg.jpg')">
+            <div class="top-line">
+                <a href="#" class="logo-header">
+                    <img src="img/logo-1.svg" alt="logo">
+                </a>
+                <a href="tel:+7 (495) 118-94-35" class="tel-header">
+                    <i class="fa fa-mobile" aria-hidden="true"></i>
+                    +7 (495) 118-94-35
+                </a>
+                <a href="#my-menu" class="hamburger hamburger--collapse" type="button">
+                <span class="hamburger-box"><span class="hamburger-inner"></span></span>
+                </a>
+                <nav id="my-menu">
+                    <ul>
+                        <li><a href="">ПАРИКМАХЕРСКИЙ СЕРВИС</a></li>
+                        <li class="active">КОСМЕТОЛОГИЧЕСКИЙ СЕРВИС<a href=""></a></li>
+                        <li><a href="">МАНИКЮРНЫЙ СЕРВИС</a></li>
+                        <li><a href="">массаж и SPA</a></li>
+                        <li><a href="">Солярий</a></li>
+                        <li><a href="">Наши специалисты</a></li>
+                        <li><a href="">Новости</a></li>
+                        <li><a href="">Прайс-лист</a></li>
+                        <li><a href="">Наши сертификаты</a></li>
+                        <li><a href="">О салоне</a></li>
+                    </ul>
+                </nav>
+            </div>
 
-            </header>
-        </div>
-        <div id="my-content"></div>
-        <div id="my-footer"></div>
+        </header>
     </div>
-	
-	<link rel="stylesheet" href="css/main.min.css">
-	<script src="js/scripts.min.js"></script>
+    <div id="my-content"></div>
+    <div id="my-footer"></div>
+</div>
+
+<link rel="stylesheet" href="css/main.min.css">
+<script src="js/scripts.min.js"></script>
 
 </body>
 </html>
